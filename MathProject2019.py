@@ -42,10 +42,8 @@ def get_answer(en):
 
 while complete == False:
     root = Tk()
-
     root.geometry('800x600')
     root.title("Math Generator")
-    root.resize(width=False, height=False)
     background_image = PhotoImage(file='backgroundimage.png')
     background_label = Label(root, image=background_image)
     background_label.place(relwidth=1, relheight=1)
